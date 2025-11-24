@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
 /*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Color Pallete: https://icolorpalette.com/ff00b3_ff009d_ff0080_ff0051_ff0000
 */
 
 html, body, div, span, applet, object,
@@ -1859,7 +1857,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #f747cb;
 		}
 
 	select {
@@ -1956,7 +1954,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #b91ac7;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2482,12 +2480,13 @@ input, select, textarea {
 			font-size: 1.35em;
 		}
 
+        /*Adjust color here*/
 		input[type="submit"].primary,
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #b20038;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2497,7 +2496,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #a01231 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2505,7 +2504,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				background-color: #d81daf !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2975,12 +2974,13 @@ input, select, textarea {
 
 			}
 
+        /*Adjust color here*/
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #8e002d;
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #6b004b;
 			color: #d3d4e4;
 		}
 
@@ -3341,6 +3341,7 @@ input, select, textarea {
 			z-index: 10001;
 		}
 
+    /*Adjust color here*/
 	#menu {
 		-moz-transform: translateX(20em);
 		-webkit-transform: translateX(20em);
@@ -3351,7 +3352,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #8e0000;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
